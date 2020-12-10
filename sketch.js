@@ -92,7 +92,7 @@ function draw() {
     //console.log(player.y+" "+displayHeight)
       console.log(player.x+" "+displayWidth)
     if(mousePressedOver(dice)){
-    var num = Math.round(random(1,3))*2
+    var num = Math.round(random(1,6))
     alert(num)
     var x = player.x
     var y = player.y
